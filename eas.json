@@ -1,0 +1,23 @@
+﻿{
+    "cli":  {
+                "version":  "\u003e= 3.0.0"
+            },
+    "build":  {
+                  "production":  {
+                                     "android":  {
+                                                     "buildType":  "app-bundle",
+                                                     "credentialsSource":  "local"
+                                                 },
+                                     "env":  {
+                                                 "EXPO_PUBLIC_MEDISAVE_AFFILIATE_ID":  "YOUR_ACTUAL_ID"
+                                             }
+                                 }
+              },
+    "submit":  {
+                   "production":  {
+                                      "android":  {
+                                                      "track":  "internal"
+                                                  }
+                                  }
+               }
+}

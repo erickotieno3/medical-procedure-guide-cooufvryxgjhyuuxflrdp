@@ -1,0 +1,5 @@
+﻿Section,Data Type,Collected,Shared,Ephemeral,Required,Purposes
+Personal info,Name,Yes,Yes,No,Yes,"App functionality, Account management"
+Personal info,Email address,Yes,Yes,No,Yes,"App functionality, Account management"
+Device or other IDs,Device or other IDs,Yes,Yes,No,Yes,"Advertising or marketing, Analytics"
+App info and performance,Crash logs,Yes,Yes,No,No,Analytics

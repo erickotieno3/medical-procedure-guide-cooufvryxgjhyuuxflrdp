@@ -1,0 +1,22 @@
+﻿Question ID (machine readable),Response ID (machine readable),Response value,Answer requirement,Human-friendly question label
+PSL_DATA_COLLECTION_COLLECTS_PERSONAL_DATA,,true,REQUIRED,Does your app collect or share any of the required user data types?
+PSL_DATA_COLLECTION_ENCRYPTED_IN_TRANSIT,,true,MAYBE_REQUIRED,Is all of the user data collected by your app encrypted in transit?
+PSL_SUPPORT_DATA_DELETION_BY_USER,DATA_DELETION_YES,true,SINGLE_CHOICE,Do you provide a way for users to request that their data is deleted? / Yes
+PSL_DATA_DELETION_URL,,https://erickotieno3.github.io/medical-procedure-guide-cooufvryxgjhyuuxflrdp/privacy-policy.html,MAYBE_REQUIRED,Delete data URL
+PSL_SUPPORTED_ACCOUNT_CREATION_METHODS,PSL_ACM_OAUTH,true,MULTIPLE_CHOICE,Which of the following methods of account creation does your app support? Select all that apply / OAuth
+PSL_HAS_OUTSIDE_APP_ACCOUNTS,,true,OPTIONAL,Can users login to your app with accounts created outside of the app?
+PSL_DATA_TYPES_PERSONAL,PSL_NAME,true,MULTIPLE_CHOICE,Personal info / Name
+PSL_DATA_TYPES_PERSONAL,PSL_EMAIL,true,MULTIPLE_CHOICE,Personal info / Email address
+PSL_DATA_TYPES_APP_PERFORMANCE,PSL_CRASH_LOGS,true,MULTIPLE_CHOICE,App info and performance / Crash logs
+PSL_DATA_TYPES_IDENTIFIERS,PSL_DEVICE_ID,true,MULTIPLE_CHOICE,Device or other IDs / Device or other IDs
+PSL_DATA_USAGE_RESPONSES:PSL_NAME:PSL_DATA_USAGE_COLLECTION_AND_SHARING,PSL_DATA_USAGE_BOTH_COLLECTED_AND_SHARED,true,MULTIPLE_CHOICE,Data usage and handling (Name) / Is this data collected shared or both? / Both
+PSL_DATA_USAGE_RESPONSES:PSL_NAME:DATA_USAGE_COLLECTION_PURPOSE,PSL_APP_FUNCTIONALITY,true,MULTIPLE_CHOICE,Data usage and handling (Name) / Why is this user data collected? / App functionality
+PSL_DATA_USAGE_RESPONSES:PSL_NAME:DATA_USAGE_COLLECTION_PURPOSE,PSL_ACCOUNT_MANAGEMENT,true,MULTIPLE_CHOICE,Data usage and handling (Name) / Why is this user data collected? / Account management
+PSL_DATA_USAGE_RESPONSES:PSL_EMAIL:PSL_DATA_USAGE_COLLECTION_AND_SHARING,PSL_DATA_USAGE_BOTH_COLLECTED_AND_SHARED,true,MULTIPLE_CHOICE,Data usage and handling (Email) / Is this data collected shared or both? / Both
+PSL_DATA_USAGE_RESPONSES:PSL_EMAIL:DATA_USAGE_COLLECTION_PURPOSE,PSL_APP_FUNCTIONALITY,true,MULTIPLE_CHOICE,Data usage and handling (Email) / Why is this user data collected? / App functionality
+PSL_DATA_USAGE_RESPONSES:PSL_EMAIL:DATA_USAGE_COLLECTION_PURPOSE,PSL_ACCOUNT_MANAGEMENT,true,MULTIPLE_CHOICE,Data usage and handling (Email) / Why is this user data collected? / Account management
+PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:PSL_DATA_USAGE_COLLECTION_AND_SHARING,PSL_DATA_USAGE_BOTH_COLLECTED_AND_SHARED,true,MULTIPLE_CHOICE,Data usage and handling (Device ID) / Is this data collected shared or both? / Both
+PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:DATA_USAGE_COLLECTION_PURPOSE,PSL_ADVERTISING,true,MULTIPLE_CHOICE,Data usage and handling (Device ID) / Purpose / Advertising
+PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:DATA_USAGE_COLLECTION_PURPOSE,PSL_ANALYTICS,true,MULTIPLE_CHOICE,Data usage and handling (Device ID) / Purpose / Analytics
+PSL_DATA_USAGE_RESPONSES:PSL_CRASH_LOGS:PSL_DATA_USAGE_COLLECTION_AND_SHARING,PSL_DATA_USAGE_ONLY_COLLECTED,true,MULTIPLE_CHOICE,Data usage and handling (Crash logs) / Collected
+PSL_DATA_USAGE_RESPONSES:PSL_CRASH_LOGS:DATA_USAGE_COLLECTION_PURPOSE,PSL_ANALYTICS,true,MULTIPLE_CHOICE,Data usage and handling (Crash logs) / Purpose / Analytics
