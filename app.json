@@ -2,7 +2,7 @@
     "expo":  {
                  "name":  "Medical Procedure Guide",
                  "slug":  "medical-procedure-guide-cooufvryxgjhyuuxflrdp",
-                 "version":  "1.0.3",
+                 "version":  "1.0.9",
                  "orientation":  "portrait",
                  "icon":  "./assets/images/icon.png",
                  "scheme":  "medicalprocedureguidecooufvryxgjhyuuxflrdp",
@@ -12,8 +12,8 @@
                              "supportsTablet":  true
                          },
                  "android":  {
-                                 "package":  "com.hyrisecrown.medicalguide2026",
-                                 "versionCode":  4,
+                                 "package":  "com.hyrisecrown.medicalprocedureguide",
+                                 "versionCode":  10,
                                  "adaptiveIcon":  {
                                                       "backgroundColor":  "#E6F4FE",
                                                       "foregroundImage":  "./assets/images/android-icon-foreground.png",
@@ -55,6 +55,6 @@
                                        }
                            },
                  "owner":  "erickfotieno",
-                 "description":  "Medical Procedure Guide - Professional surgical and clinical procedure reference. This app contains affiliate links to medical supply products via Medisave UK."
+                 "description":  "Medical Procedure Guide is a comprehensive reference app for medical students, doctors, nurses, and healthcare professionals. It provides clear step-by-step instructions for common clinical and surgical procedures."
              }
 }
