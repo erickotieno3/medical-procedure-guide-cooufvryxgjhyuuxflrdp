@@ -1,0 +1,15 @@
+﻿Question ID (machine readable),Response ID (machine readable),Response value,Answer requirement,Human-friendly question label
+PSL_DATA_COLLECTION_COLLECTS_PERSONAL_DATA,,true,REQUIRED,Does your app collect or share any of the required user data types?
+PSL_DATA_COLLECTION_ENCRYPTED_IN_TRANSIT,,true,MAYBE_REQUIRED,Is all of the user data collected by your app encrypted in transit?
+PSL_SUPPORT_DATA_DELETION_BY_USER,DATA_DELETION_UNINSTALL,true,SINGLE_CHOICE,Do you provide a way for users to request that their data is deleted? / Uninstall
+PSL_DATA_TYPES_IDENTIFIERS,PSL_DEVICE_ID,true,MULTIPLE_CHOICE,Device or other IDs / Device or other IDs
+PSL_DATA_TYPES_APP_PERFORMANCE,PSL_CRASH_LOGS,true,MULTIPLE_CHOICE,App info and performance / Crash logs
+PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:PSL_DATA_USAGE_COLLECTION_AND_SHARING,PSL_DATA_USAGE_BOTH_COLLECTED_AND_SHARED,true,MULTIPLE_CHOICE,Data usage and handling (Device ID) / Both collected and shared
+PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:PSL_DATA_USAGE_EPHEMERAL,,false,MAYBE_REQUIRED,Data usage and handling (Device ID) / Ephemeral / No
+PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:DATA_USAGE_USER_CONTROL,PSL_DATA_USAGE_USER_CONTROL_REQUIRED,false,SINGLE_CHOICE,Data usage and handling (Device ID) / Optional
+PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:DATA_USAGE_COLLECTION_PURPOSE,PSL_ADVERTISING,true,MULTIPLE_CHOICE,Data usage and handling (Device ID) / Collection Purpose / Advertising or marketing
+PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:DATA_USAGE_SHARING_PURPOSE,PSL_ADVERTISING,true,MULTIPLE_CHOICE,Data usage and handling (Device ID) / Sharing Purpose / Advertising or marketing
+PSL_DATA_USAGE_RESPONSES:PSL_CRASH_LOGS:PSL_DATA_USAGE_COLLECTION_AND_SHARING,PSL_DATA_USAGE_ONLY_COLLECTED,true,MULTIPLE_CHOICE,Data usage and handling (Crash logs) / Collected only
+PSL_DATA_USAGE_RESPONSES:PSL_CRASH_LOGS:PSL_DATA_USAGE_EPHEMERAL,,false,MAYBE_REQUIRED,Data usage and handling (Crash logs) / Ephemeral / No
+PSL_DATA_USAGE_RESPONSES:PSL_CRASH_LOGS:DATA_USAGE_USER_CONTROL,PSL_DATA_USAGE_USER_CONTROL_REQUIRED,false,SINGLE_CHOICE,Data usage and handling (Crash logs) / Optional
+PSL_DATA_USAGE_RESPONSES:PSL_CRASH_LOGS:DATA_USAGE_COLLECTION_PURPOSE,PSL_ANALYTICS,true,MULTIPLE_CHOICE,Data usage and handling (Crash logs) / Collection Purpose / Analytics
