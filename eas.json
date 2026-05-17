@@ -10,7 +10,8 @@
         "credentialsSource": "local"
       },
       "env": {
-        "EXPO_PUBLIC_MEDISAVE_AFFILIATE_ID": "PENDING_APPROVAL"
+        "EXPO_PUBLIC_MEDISAVE_AFFILIATE_ID": "YOUR-ACTUAL-VALUE-HERE",
+        "NODE_ENV": "production"
       }
     }
   },
@@ -19,8 +20,8 @@
       "android": {
         "serviceAccountKeyPath": "./google-play-key.json",
         "track": "production",
-        "releaseStatus": "draft",
-        "changesNotSentForReview": false
+        "releaseStatus": "completed",
+        "changesNotSentForReview": true
       }
     }
   }

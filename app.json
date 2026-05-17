@@ -2,7 +2,7 @@
     "expo":  {
                  "name":  "Medical Procedure Guide",
                  "slug":  "medical-procedure-guide-cooufvryxgjhyuuxflrdp",
-                 "version":  "1.0.9",
+                 "version":  "1.0.22",
                  "orientation":  "portrait",
                  "icon":  "./assets/images/icon.png",
                  "scheme":  "medicalprocedureguidecooufvryxgjhyuuxflrdp",
@@ -13,7 +13,7 @@
                          },
                  "android":  {
                                  "package":  "com.hyrisecrown.medicalprocedureguide",
-                                 "versionCode":  10,
+                                 "versionCode":  23,
                                  "adaptiveIcon":  {
                                                       "backgroundColor":  "#E6F4FE",
                                                       "foregroundImage":  "./assets/images/android-icon-foreground.png",
@@ -40,7 +40,8 @@
                                                       "backgroundColor":  "#000000"
                                                   }
                                      }
-                                 ]
+                                 ],
+                                 "react-native-google-mobile-ads"
                              ],
                  "experiments":  {
                                      "typedRoutes":  true,
