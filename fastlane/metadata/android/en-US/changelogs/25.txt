@@ -1,0 +1,2 @@
+﻿Release v1.0.24
+- Initial commit - Remove secrets from history, add to gitignore - Correct data safety: AdMob Advertising ID only, no personal data - Update privacy policy and data safety compliance - initial commit
