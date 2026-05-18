@@ -1,0 +1,20 @@
+﻿name: Build Android AAB
+
+on:
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - run: npm install
+      - run: npm install -g eas-cli
+      - run: eas build --platform android --profile production --non-interactive
+      - uses: actions/upload-artifact@v4
+        with:
+          name: app-aab
+          path: build/*.aab

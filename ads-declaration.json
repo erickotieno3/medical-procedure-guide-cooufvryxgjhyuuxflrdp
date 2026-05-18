@@ -1,0 +1,5 @@
+{
+  "containsAds": true,
+  "adTypes": ["banner", "interstitial"],
+  "adProviders": ["Google AdMob"]
+}

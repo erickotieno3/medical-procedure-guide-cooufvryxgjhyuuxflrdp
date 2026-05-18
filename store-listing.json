@@ -1,0 +1,8 @@
+{
+  "appName": "Medical Procedure Guide",
+  "shortDescription": "Step-by-step medical procedure reference guide.",
+  "fullDescription": "Medical Procedure Guide provides healthcare professionals with structured instructions, safety notes, and references for common procedures.",
+  "language": "en-US",
+  "screenshots": ["screenshot1.png", "screenshot2.png"],
+  "icon": "app-icon.png"
+}

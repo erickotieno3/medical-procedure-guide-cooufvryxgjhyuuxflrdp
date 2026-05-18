@@ -1,0 +1,5 @@
+﻿This release includes:
+• Performance improvements
+• Bug fixes and stability enhancements
+• Updated privacy policy compliance
+• Optimized ad serving

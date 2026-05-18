@@ -2,7 +2,7 @@
     "expo":  {
                  "name":  "Medical Procedure Guide",
                  "slug":  "medical-procedure-guide-cooufvryxgjhyuuxflrdp",
-                 "version":  "1.0.24",
+                 "version":  "1.0.27",
                  "orientation":  "portrait",
                  "icon":  "./assets/images/icon.png",
                  "scheme":  "medicalprocedureguidecooufvryxgjhyuuxflrdp",
@@ -13,7 +13,7 @@
                          },
                  "android":  {
                                  "package":  "com.hyrisecrown.medicalprocedureguide",
-                                 "versionCode":  25,
+                                 "versionCode":  28,
                                  "adaptiveIcon":  {
                                                       "backgroundColor":  "#E6F4FE",
                                                       "foregroundImage":  "./assets/images/android-icon-foreground.png",
