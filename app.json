@@ -2,7 +2,7 @@
     "expo":  {
                  "name":  "Medical Procedure Guide",
                  "slug":  "medical-procedure-guide-cooufvryxgjhyuuxflrdp",
-                 "version":  "1.0.27",
+                 "version":  "1.0.20",
                  "orientation":  "portrait",
                  "icon":  "./assets/images/icon.png",
                  "scheme":  "medicalprocedureguidecooufvryxgjhyuuxflrdp",
@@ -13,7 +13,7 @@
                          },
                  "android":  {
                                  "package":  "com.hyrisecrown.medicalprocedureguide",
-                                 "versionCode":  28,
+                                 "versionCode":  22,
                                  "adaptiveIcon":  {
                                                       "backgroundColor":  "#E6F4FE",
                                                       "foregroundImage":  "./assets/images/android-icon-foreground.png",
@@ -21,7 +21,10 @@
                                                       "monochromeImage":  "./assets/images/android-icon-monochrome.png"
                                                   },
                                  "edgeToEdgeEnabled":  true,
-                                 "predictiveBackGestureEnabled":  false
+                                 "predictiveBackGestureEnabled":  false,
+                                 "config":  {
+                                                "googleMobileAdsAppId":  "ca-app-pub-5629546034653601~2790046951"
+                                            }
                              },
                  "web":  {
                              "output":  "static",
@@ -40,8 +43,7 @@
                                                       "backgroundColor":  "#000000"
                                                   }
                                      }
-                                 ],
-                                 "react-native-google-mobile-ads"
+                                 ]
                              ],
                  "experiments":  {
                                      "typedRoutes":  true,
