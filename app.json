@@ -4,13 +4,6 @@
     "slug": "medical-procedure-guide-cooufvryxgjhyuuxflrdp",
     "version": "1.0.25",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "medicalprocedureguidecooufvryxgjhyuuxflrdp",
-    "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "package": "com.hyrisecrown.medicalprocedureguide",
       "versionCode": 25,
@@ -23,10 +16,6 @@
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png"
       }
-    },
-    "web": {
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
     },
     "extra": {
       "eas": {
